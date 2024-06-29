@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Playwrite ES Deco;
+}
+.container {
+    background-color:aquamarine;
+}
+
+.primeira-secao{
+    color:red;
+}
+
+
+.primeira-secao > p {
+    color: darkcyan;
+}
+
+.primeira-secao >div >p{
+    color: darksalmon;
+}
+
+.primeira-secao >div>div>p{
+    color: darkolivegreen;
+}
+
+.segunda-secao{
+    color: white;
+    background-color: blue;
+    margin: 20px 60px 20px 60px;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+   }
+
+.segunda-secao p {
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: justify;
+    font-weight: 700;
+
+}
